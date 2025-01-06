@@ -4,11 +4,11 @@ function calculateCircleArea(radius) {
 		return "Radius must be greater than zero";
 	}
 	const pi = Math.PI;
-	const area = pi * radius * radius;
+	let area = pi * radius * radius;
 	return area;
 }
 
 // Example usage
 const radius = 5;
-const area = calculateCircleArea(radius);
+let area = calculateCircleArea(radius);
 console.log(`The area of the circle with radius ${radius} is ${area}`);
